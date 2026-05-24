@@ -6,7 +6,7 @@ import { InteractionHelper } from '../../utils/interactionHelper.js';
 const SUPPORT_SERVER_URL = "nil";
 export default {
     data: new SlashCommandBuilder()
-    .setName("support")
+    .setName("info")
     .setDescription("Info About the Bot"),
 
   async execute(interaction) {
