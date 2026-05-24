@@ -9,9 +9,9 @@ export default {
 
     async execute(interaction) {
         const githubButton = new ButtonBuilder()
-            .setLabel('?? Report Bug on GitHub')
+            .setLabel('?? Report Bug on SayOut')
             .setStyle(ButtonStyle.Link)
-            .setURL('https://guns.lol/areu');
+            .setURL('https://areuosu.sayout.net/');
 
         const row = new ActionRowBuilder().addComponents(githubButton);
 
