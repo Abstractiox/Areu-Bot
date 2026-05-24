@@ -168,8 +168,8 @@ export async function createInitialHelpMenu(client) {
         .setStyle(ButtonStyle.Link);
 
     const touchpointButton = new ButtonBuilder()
-        .setLabel("Naw")
-        .setURL("Naw")
+        .setLabel("Just google")
+        .setURL("https://google.com")
         .setStyle(ButtonStyle.Link);
 
     const selectRow = createSelectMenu(
