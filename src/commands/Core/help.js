@@ -153,7 +153,7 @@ export async function createInitialHelpMenu(client) {
     );
 
     embed.setFooter({ 
-        text: "Made with ❤️" 
+        text: "Made Areu :)" 
     });
     embed.setTimestamp();
 
@@ -163,8 +163,8 @@ export async function createInitialHelpMenu(client) {
         .setStyle(ButtonStyle.Danger);
 
     const supportButton = new ButtonBuilder()
-        .setLabel("Support Server")
-        .setURL("https://discord.gg/QnWNz2dKCE")
+        .setLabel("Profile")
+        .setURL("https://guns.lol/areu")
         .setStyle(ButtonStyle.Link);
 
     const touchpointButton = new ButtonBuilder()
@@ -192,7 +192,7 @@ export async function createInitialHelpMenu(client) {
 
 export default {
     data: new SlashCommandBuilder()
-        .setName("help")
+        .setName("helpmeplease")
         .setDescription("Displays the help menu with all available commands"),
 
     async execute(interaction, guildConfig, client) {
