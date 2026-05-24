@@ -11,12 +11,12 @@ export default {
         const githubButton = new ButtonBuilder()
             .setLabel('?? Report Bug on SayOut')
             .setStyle(ButtonStyle.Link)
-            .setURL('https://areuosu.sayout.net/');
+            .setURL('https://areuosu.sayout.net');
 
         const row = new ActionRowBuilder().addComponents(githubButton);
 
         const bugReportEmbed = createEmbed({
-            title: '?? Bug Report',
+            title: '?? Bug Report yeee',
             description: 'Found a bug? Please report it on our GitHub Issues page!\n\n' +
             '**When reporting a bug, please include:**\n' +
             '• ?? Detailed description of the issue\n' +
