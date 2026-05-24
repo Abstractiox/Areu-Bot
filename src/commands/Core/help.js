@@ -74,8 +74,8 @@ export async function createInitialHelpMenu(client) {
 
     const botName = client?.user?.username || "Bot";
     const embed = createEmbed({ 
-        title: `🤖 ${botName} Help Center`,
-        description: "Your all-in-one Discord companion for moderation, economy, fun, and server management.",
+        title: `🤖 ${botName} Help Commands`,
+        description: "Most commands are still work-in-progress -Areu",
         color: 'primary'
     });
 
@@ -123,11 +123,6 @@ export async function createInitialHelpMenu(client) {
         {
             name: "👥 **Community**",
             value: "Community tools, applications, and member engagement",
-            inline: true
-        },
-        {
-            name: "⚙️ **Config**",
-            value: "Server and bot configuration management commands",
             inline: true
         },
         {
